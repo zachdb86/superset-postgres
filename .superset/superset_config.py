@@ -21,7 +21,7 @@ SECRET_KEY = 'superSECRETsuperSETkey123'
 SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://superset:superset@postgres:5432/superset'
 
 # Flask-WTF flag for CSRF
-CSRF_ENABLED = True
+WTF_CSRF_ENABLED = False
 
 # Set this API key to enable Mapbox visualizations
 MAPBOX_API_KEY = ''
